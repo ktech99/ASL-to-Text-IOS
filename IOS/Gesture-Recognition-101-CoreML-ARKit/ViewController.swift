@@ -146,7 +146,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             let topPredictionScore:Float? = Float(topPrediction.components(separatedBy: ":")[1].trimmingCharacters(in: .whitespaces))
             if (topPredictionScore != nil && topPredictionScore! > 0.01) {
                 if (topPredictionName == "hi") { symbol = "hi" }
-                if (topPredictionName == "bye") { symbol = "bye" }
+                if (topPredictionName == "love") { symbol = "I love you" }
             }
             
             self.textOverlay.text = symbol
