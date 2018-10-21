@@ -2,7 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c39358e3-1b21-455c-aea2-b3426071ecc3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/cam_capture.py" beforeDir="false" afterPath="$PROJECT_DIR$/Camera Capture Multiple Images/cam_capture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/kha_hi/kha_hi-0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/kha_hi/kha_hi-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/kha_hi/kha_hi-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/kha_hi/kha_hi-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/kha_hi/kha_hi-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/kha_hi/kha_hi-13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/kha_hi/kha_hi-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/kha_hi/kha_hi-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/kha_hi/kha_hi-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/kha_hi/kha_hi-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/kha_hi/kha_hi-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/kha_hi/kha_hi-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/kha_hi/kha_hi-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/kha_hi/kha_hi-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/kha_hi/kha_hi-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/pintu/pintu-0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/pintu/pintu-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/pintu/pintu-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/pintu/pintu-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/pintu/pintu-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/pintu/pintu-13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/pintu/pintu-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/pintu/pintu-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/pintu/pintu-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/pintu/pintu-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/pintu/pintu-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/pintu/pintu-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/pintu/pintu-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/pintu/pintu-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera Capture Multiple Images/img/pintu/pintu-9.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +41,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Dubhacks_2018$image_capture.coverage" NAME="image_capture Coverage Results" MODIFIED="1540081631797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Camera Capture Multiple Images" />
+    <SUITE FILE_PATH="coverage/Dubhacks_2018$image_capture.coverage" NAME="image_capture Coverage Results" MODIFIED="1540082379199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Camera Capture Multiple Images" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="717208166">
@@ -29,6 +59,26 @@
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="png" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="293" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="293" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
@@ -36,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Camera Capture Multiple Images/cam_capture.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="78" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
+            <state relative-caret-position="306">
+              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -49,6 +99,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Camera Capture Multiple Images/cam_capture.py" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -78,12 +135,6 @@
               <item name="Dubhacks-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dubhacks-2018" type="462c0819:PsiDirectoryNode" />
               <item name="Camera Capture Multiple Images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dubhacks-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dubhacks-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Camera Capture Multiple Images" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -149,13 +200,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23319027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3298122" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -180,10 +232,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Camera Capture Multiple Images/img/kha_hi/kha_hi-10.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Camera Capture Multiple Images/cam_capture.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="78" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
+        <state relative-caret-position="306">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
