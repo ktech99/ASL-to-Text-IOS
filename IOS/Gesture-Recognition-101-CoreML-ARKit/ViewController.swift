@@ -49,6 +49,12 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         classificationRequest.imageCropAndScaleOption = VNImageCropAndScaleOption.centerCrop // Crop from centre of images and scale to appropriate size.
         visionRequests = [classificationRequest]
         
+        textOverlay.layer.shadowOpacity = 0.1
+        textOverlay.layer.shadowRadius = 8
+        textOverlay.layer.shadowColor = UIColor.black.cgColor
+        textOverlay.layer.backgroundColor = UIColor.clear.cgColor
+        textOverlay.backgroundColor = UIColor.white
+        
         // Begin Loop to Update CoreML
         loopCoreMLUpdate()
     }
@@ -163,17 +169,25 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             let topPredictionScore:Float? = Float(topPrediction.components(separatedBy: ":")[1].trimmingCharacters(in: .whitespaces))
             
             if (topPredictionScore != nil && topPredictionScore! > 0.01) {
-                self.textOverlay.backgroundColor = UIColor.white
-                self.textOverlay.layer.borderColor = UIColor.gray.cgColor
+                self.textOverlay.layer.borderColor = UIColor.clear.cgColor
                 self.getMaxChar(computedPrediction: topPredictionName)
-                if (self.maxChar.contains("hi")) { symbol = "Hi" }
-                if (self.maxChar.contains("love")) { symbol = "I love you" }
+                if (self.maxChar.contains("hi")) {
+                    symbol = "Hi"
+                    self.textOverlay.backgroundColor = UIColor.white
+                }
+                if (self.maxChar.contains("love")) {
+                    symbol = "I love you ❤️"
+                    self.textOverlay.backgroundColor = UIColor.white
+                }
                 if (self.maxChar == "negative") {
                     symbol = "❎"
                     self.textOverlay.backgroundColor = UIColor.clear
                     self.textOverlay.layer.borderColor = UIColor.clear.cgColor
                 }
-                if (self.maxChar == "no") { symbol = "No" }
+                if (self.maxChar == "cat") {
+                    symbol = "🐱"
+                    self.textOverlay.backgroundColor = UIColor.clear
+                }
             }
             self.textOverlay.text = symbol
         }

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Gesture-Recognition-101-CoreML-ARKit.xcodeproj">
+      location = "self:/Users/khanguyen/Documents/Dubhacks-2018/IOS/ASLove.xcodeproj">
    </FileRef>
 </Workspace>

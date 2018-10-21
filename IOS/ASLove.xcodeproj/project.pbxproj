@@ -106,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AE8573451F9D179100D73806 /* Build configuration list for PBXProject "Gesture-Recognition-101-CoreML-ARKit" */;
+			buildConfigurationList = AE8573451F9D179100D73806 /* Build configuration list for PBXProject "ASLove" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -313,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE8573451F9D179100D73806 /* Build configuration list for PBXProject "Gesture-Recognition-101-CoreML-ARKit" */ = {
+		AE8573451F9D179100D73806 /* Build configuration list for PBXProject "ASLove" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE85735C1F9D179100D73806 /* Debug */,
