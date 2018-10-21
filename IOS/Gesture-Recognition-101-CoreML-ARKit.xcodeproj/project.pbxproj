@@ -283,11 +283,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8KS4DU4Y2K;
+				DEVELOPMENT_TEAM = XSM5QKVXW5;
 				INFOPLIST_FILE = "Gesture-Recognition-101-CoreML-ARKit/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emerging-interactions.Gesture-Recognition-101-CoreML-ARKit";
+				PRODUCT_BUNDLE_IDENTIFIER = kha.is.cool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,11 +299,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8KS4DU4Y2K;
+				DEVELOPMENT_TEAM = XSM5QKVXW5;
 				INFOPLIST_FILE = "Gesture-Recognition-101-CoreML-ARKit/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emerging-interactions.Gesture-Recognition-101-CoreML-ARKit";
+				PRODUCT_BUNDLE_IDENTIFIER = kha.is.cool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -124,8 +124,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         }
         
         // Get Classifications
-        let classifications = observations[0...2] // top 3 results
-            .flatMap({ $0 as? VNClassificationObservation })
+        let classifications = observations[0...1] // top 3 results
+            .compactMap({ $0 as? VNClassificationObservation })
             .map({ "\($0.identifier) \(String(format:" : %.2f", $0.confidence))" })
             .joined(separator: "\n")
         
@@ -145,8 +145,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             // Only display a prediction if confidence is above 1%
             let topPredictionScore:Float? = Float(topPrediction.components(separatedBy: ":")[1].trimmingCharacters(in: .whitespaces))
             if (topPredictionScore != nil && topPredictionScore! > 0.01) {
-                if (topPredictionName == "fist-UB-RHand") { symbol = "👊" }
-                if (topPredictionName == "FIVE-UB-RHand") { symbol = "🖐" }
+                if (topPredictionName == "hi") { symbol = "hi" }
+                if (topPredictionName == "bye") { symbol = "bye" }
             }
             
             self.textOverlay.text = symbol
