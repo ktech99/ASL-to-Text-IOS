@@ -144,7 +144,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         }
         
         // Get Classifications
-        let classifications = observations.prefix(3) // top 3 results
+        let classifications = observations.prefix(4) // top 3 results
             .compactMap({ $0 as? VNClassificationObservation })
             .map({ "\($0.identifier) \(String(format:" : %.2f", $0.confidence))" })
             .joined(separator: "\n")
@@ -163,10 +163,17 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             let topPredictionScore:Float? = Float(topPrediction.components(separatedBy: ":")[1].trimmingCharacters(in: .whitespaces))
             
             if (topPredictionScore != nil && topPredictionScore! > 0.01) {
+                self.textOverlay.backgroundColor = UIColor.white
+                self.textOverlay.layer.borderColor = UIColor.gray.cgColor
                 self.getMaxChar(computedPrediction: topPredictionName)
-                if (self.maxChar.contains("hi")) { symbol = "hi" }
+                if (self.maxChar.contains("hi")) { symbol = "Hi" }
                 if (self.maxChar.contains("love")) { symbol = "I love you" }
-                if (self.maxChar == "negative") { symbol = "❎" }
+                if (self.maxChar == "negative") {
+                    symbol = "❎"
+                    self.textOverlay.backgroundColor = UIColor.clear
+                    self.textOverlay.layer.borderColor = UIColor.clear.cgColor
+                }
+                if (self.maxChar == "no") { symbol = "No" }
             }
             self.textOverlay.text = symbol
         }
