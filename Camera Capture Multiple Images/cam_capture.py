@@ -17,8 +17,8 @@ for timer in range(3,0,-1):
     time.sleep(1)
 camera = cv2.VideoCapture(0)
 time.sleep(.5)
-for i in range(15):
+for i in range(50):
     return_value, image = camera.read()
     cv2.imwrite('img/' + sign_name + "/" + person_name + "/" + person_name + "-" + str(i) + '.png', image)
-    time.sleep(.100)
+    time.sleep(.050)
 camera.release()
