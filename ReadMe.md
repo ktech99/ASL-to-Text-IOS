@@ -1,6 +1,6 @@
 # Sign Language to Text using Custom Vision (ASLove)
 
-![img\demo](img\demo.gif)
+![img\demo](img/demo.gif)
 
 
 This project aims to assist individuals with speech impairment by transcribing actions in ALS to text in real time using the camera on an IOS device.
