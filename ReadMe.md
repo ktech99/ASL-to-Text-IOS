@@ -1,5 +1,7 @@
 # Sign Language to Text using Custom Vision (ASLove)
 
+![img\logo](img/logo.png)
+
 ![img\demo](img/demo.gif)
 
 
